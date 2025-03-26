@@ -1,4 +1,4 @@
-import SideBar from "./components/Sidebar"
+import Sidebar from "./components/Sidebar"
 import Main from "./components/Main"
 import Footer from "./components/Footer"
 import { useEffect, useState } from "react"
@@ -49,7 +49,7 @@ function App() {
      <div className="loadingState">
       <span className="material-symbols-outlined">settings</span></div>
      )}
-      {showModel && ( <SideBar data={data} toggleModel = {toggleModel}/>)}
+      {showModel && ( <Sidebar data={data} toggleModel = {toggleModel}/>)}
       {data && (<Footer data={data} toggleModel = {toggleModel}/>)}
     </>
   )

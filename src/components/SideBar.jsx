@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SideBar = (props) => {
+const Sidebar = (props) => {
   const { toggleModel, data } = props
   return (
     <div className='sidebar'>
@@ -20,4 +20,4 @@ const SideBar = (props) => {
   )
 }
 
-export default SideBar
+export default Sidebar
